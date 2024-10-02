@@ -9,7 +9,7 @@ function Home() {
 
 	return (
 		<div>
-			<h1>Welcome to Our App!</h1>
+			<h1>Welcome to Cyprus Club!</h1>
 			<button onClick={handleLoginClick}>
 				Login
 			</button>

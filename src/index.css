@@ -7,5 +7,5 @@ body {
     @apply h-screen w-screen
 }
 #root {
-    @apply flex flex-col h-full w-full px-32
+    @apply flex flex-col h-full w-full px-32 bg-gradient-to-t from-orange-300
 }
