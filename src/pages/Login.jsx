@@ -22,7 +22,7 @@ function Login() {
 			alert("Invalid username or password");
 		}
 	};
-
+	// Another rebase test addition
 	return (
 		<form onSubmit={handleLogin}>
 			<input
