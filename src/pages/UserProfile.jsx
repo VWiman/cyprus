@@ -14,9 +14,13 @@ export default function UserProfile() {
 	};
 
 	return (
-		<div>
-			<h1>Welcome, {username}!</h1>
-			<button onClick={handleLogout}>Logout</button>
+		<div className="flex flex-col bg-white/50 rounded-sm gap-4 shadow-lg backdrop-blur-md p-4">
+			<h2 className="text-orange-400/80 font-semibold text-4xl">Welcome, {username}!</h2>
+			<button
+				className="bg-blue-400/80 text-white shadow-black/10 shadow-md hover:shadow-black/5 active:shadow-none text-sm font-semibold rounded-md py-3"
+				onClick={handleLogout}>
+				Logout
+			</button>
 		</div>
 	);
 }

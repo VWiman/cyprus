@@ -4,7 +4,7 @@
 
 
 body {
-    @apply h-screen w-screen bg-gradient-to-t from-orange-300
+    @apply h-screen w-screen bg-center bg-cover bg-[url("bg.webp")]
 }
 #root {
     @apply flex flex-col h-full w-full px-32

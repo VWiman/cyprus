@@ -8,7 +8,7 @@ function Home() {
 	};
 	// I added this text while learning to rebase
 	return (
-		<div className="flex flex-col bg-white/50 rounded-sm gap-4 shadow-lg backdrop-blur-md">
+		<div className="flex flex-col bg-white/80 rounded-sm gap-4 shadow-lg backdrop-blur-md">
 			<h2 className="rounded-t-sm bg-orange-400/80 p-2 text-white font-semibold text-4xl">Welcome to Cyprus Club!</h2>
 			<div className="flex w-full items-center">
 				<p className="text-orange-500/80 text-xs pl-3 font-bold self-start">
